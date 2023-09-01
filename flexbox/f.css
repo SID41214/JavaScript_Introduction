@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    height: 100vh;
+    border: 20px solid gray;
+    display: flex;/* Add this */
+    /* flex-direction: column;*/
+    justify-content: center;/* Add this */
+    align-items: center;    /* Add this */
+}
+.child1{
+    width:200px;
+    height: 200px;
+    background-color: aqua;
+    display: flex; /* Add this */
+    justify-content: center; 
+    align-items: center; 
+  
+}
+
+.child2{
+    width:200px;
+    height: 200px;
+    background-color:palevioletred;
+    display: flex; /* Add this */
+    justify-content: center; 
+    align-items: center; 
+  
+}
+
+.child3{
+    width:200px;
+    height: 200px;
+    background-color:green;
+    display: flex; /* Add this */
+    justify-content: center; 
+    align-items: center; 
+  
+}

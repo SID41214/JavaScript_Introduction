@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>hollow triangle star patttern</h3>
+    <script>
+      var i,j,k;
+      for(i=1;i<=5;i++){
+        for(j=5;j>i;j--){
+            document.write(" &nbsp;");
+        }
+        for(k=1;k<=((2*i)-1);k++){
+            if(i==1||i==5||k==1||k==(2*i-1) )
+            {
+            document.write("*")
+            } else{
+                document.write("&nbsp;&nbsp");
+            }
+        }
+        document.write("<br>")
+      }
+    </script>
+</body>
+</html>
+

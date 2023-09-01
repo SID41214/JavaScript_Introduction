@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Balance</title>
+    <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+    <div class="div"> 
+        <br>
+        <h3>To check Bank Balance</h3>
+        <div class="div2">
+           
+                <br>
+                <input type="number" id="n1" name="deposit" value="deposit" placeholder="Enter Deposit Amount">
+                <button id="dp" onclick="curbal()">Deposit</button>
+                <br><br>
+                <input type="number" id="n2" name="withdraw" value="withdraw" placeholder="Enter Withdraw Amount">
+                <button id="wd" onclick="aftrwith()">Withdraw</button>
+                <br><br>
+                
+                <button id="balance" onclick="famount()" >Click For Balance Amount</button>
+                <br><br>
+                <h4>The Final Balance Amount would be : </h4>
+                <h3 id="p"></h3>
+                <br> 
+        
+        </div>
+        <br>
+    </div>
+    
+<script src="bank.js"></script>
+</body>
+</html>

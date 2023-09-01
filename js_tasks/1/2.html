@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Write a JavaScript program to get the following output.</h3>
+        <h3>Input: "!trams era uoY"</h3>
+        <h3>Output: “You are smart</h3>
+        <input type="text" id="text">
+        <button onclick="reverse()">Change</button><br/>
+        <h3 id="ans"> Output will display here</h3>
+    <script>
+        function reverse(){
+            var str=document.getElementById("text").value;
+  var arr =  str.split("").reverse().join("");
+    document.getElementById("ans").innerHTML=arr;
+}
+
+    </script>
+    
+</body>
+</html>

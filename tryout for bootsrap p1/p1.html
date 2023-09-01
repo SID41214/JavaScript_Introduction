@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="p1.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <!-----------------------------------      Navbar    ---------------------- -->
+
+    <nav class="navbar navbar-expand-sm bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fw-bold " href="#">TASTY</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-warning fw-bold" aria-current="page" href="#carouselExampleCaptions">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning fw-bold" href="#order">Orders</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-warning fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Deals
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item " href="#">dsfsddf</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-warning fw-bold" href="#footer" >Location</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning text-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- -------------------------------------   Carousel     ------------------------------------------>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="pic1.jpg" class="slide d-block w-100" alt="food1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-dark fw-bold bg-warning rounded-pill">First slide label</h5>
+              <p class="text-dark fw-bold bg-warning rounded-pill">Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="pic2.jpg" class="slide d-block w-100" alt="food2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-dark fw-bold bg-warning rounded-pill">Second slide label</h5>
+              <p class="text-dark fw-bold bg-warning rounded-pill">Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="pic3.jpg" class="slide d-block w-100" alt="food3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-dark fw-bold bg-warning rounded-pill">Third slide label</h5>
+              <p class="text-dark fw-bold bg-warning rounded-pill">Some representative placeholder content for the third slide.</p>
+            </div>
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--Orders -->
+      <div class="container" id="order">
+        <h2 class=" ww text-white mt-1 border-3 text-center fw-bold bg-secondary rounded-pill" >Order Your Food Now !!</h2>
+
+           <div class="row">
+                <div class="col-4"><div class="card" style="width: 18rem; ">
+                    <img src="pic4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div></div>
+                <div class="col-4"><div class="card" style="width: 18rem;">
+                    <img src="pic1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div></div>
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="pic2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                
+            </div>
+                <div class="row">
+                    <div class="col-4"><div class="card" style="width: 18rem;">
+                        <img src="pic3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div></div>
+                    <div class="col-4"><div class="card" style="width: 18rem;">
+                        <img src="pic2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div></div>
+                    <div class="col-4"><div class="card" style="width: 18rem;">
+                        <img src="pic1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div></div>
+                    
+                </div>
+        
+        </div>
+
+        
+    </div>
+<!-- footer -->
+<div class="container-fluid bg-warning" id="footer">
+    <div class="row">
+        <h1 class="text-center">Location</h1>
+        <div class="col-6">
+            <h1 class="text-white"> Tasty foods restaurant</h1>
+            <h4 class="text-white">USA</h4>
+            <h4 class="text-white">12 Street</h4>
+            <p class="text-white"><i class="fas fa-phone"></i>&nbsp;+970 - XXXXXXX</p>
+        </div>
+        <div class="col-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198061.17426313536!2d-84.85223378289089!3d39.13592461819759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884051b1de3821f9%3A0x69fb7e8be4c09317!2sCincinnati%2C%20OH%2C%20USA!5e0!3m2!1sen!2sin!4v1692268972877!5m2!1sen!2sin" width="700" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+</body>
+</html>

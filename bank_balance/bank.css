@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.div{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 50px ;
+    font-size: large;
+    border: 2px solid black;
+}
+.div2{
+    background-color:darkslategray;
+    margin:50px;
+    border: 2px solid white;
+}
+button{
+    background-color:rgb(196, 189, 189);
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    border: 3px solid white;
+}

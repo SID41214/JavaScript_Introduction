@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    margin:20px 20px 10px 20px;
+    text-align:center;
+    background-color: lightskyblue;
+}
+h4{
+    margin:20px 20px 10px 20px;
+    text-align:center;
+    background-color: lightgreen;
+}
+label,input{
+    margin:20px 20px 10px 20px;
+    text-align: center;
+    font-weight:900;
+}
+
+.container{
+    margin:20px 20px 10px 20px;
+    display:flex ;
+    flex-direction :column;
+    justify-content: center;
+}
+button{
+    margin:20px 20px 10px 20px;
+    background-color: aquamarine;
+}

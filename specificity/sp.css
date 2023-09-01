@@ -1,0 +1,19 @@
+body{
+    margin:0;
+
+}
+h1{
+    margin:0;
+}
+.container{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction:row;
+  
+}
+.one,.two,.three{
+    flex:1;
+    height:200px;
+    background-color: blueviolet;
+    border:1px solid white;
+}
